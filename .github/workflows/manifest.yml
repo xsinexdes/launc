@@ -1,0 +1,31 @@
+name: Actualizar lista de archivos
+
+# Cada vez que subes o cambias algo en servidor-archivos/, esta tarea regenera manifest.json sola.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'servidor-archivos/**'
+      - '!servidor-archivos/manifest.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generar manifest.json
+        run: node herramientas/generar-manifest.js
+      - name: Guardar cambios
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add servidor-archivos/manifest.json
+          git diff --staged --quiet || git commit -m "Actualizar manifest.json [skip ci]"
+          git push
