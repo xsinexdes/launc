@@ -1,0 +1,18 @@
+{
+  "version": 1791265336409,
+  "strict": [
+    "mods"
+  ],
+  "apply": {
+    "resourcePack": "",
+    "shaderPack": ""
+  },
+  "news": [
+    {
+      "date": "5 oct 2026",
+      "title": "Bienvenido a bordo",
+      "text": "Este launcher instala y actualiza los mods, el resource pack y los shaders automáticamente."
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Nova",
+  "tagline": "Servidor espacial de Minecraft",
+  "dataFolder": "NovaLauncher",
+  "serverIp": "play.tuservidor.com",
+  "manifestUrl": "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/servidor-archivos/manifest.json",
+  "minecraftVersion": "1.21.1",
+  "defaultRamGb": 4,
+  "links": { "discord": "", "web": "" }
+}

@@ -1,0 +1,3 @@
+Pon aquí los mods (.jar) de FABRIC para Minecraft 1.21.1.
+Mods base recomendados: Fabric API, Sodium e Iris (los baja solos el archivo 1-DESCARGAR-MODS-BASICOS.bat).
+Si borras un mod de esta carpeta, el launcher también lo borra del PC de los jugadores.

@@ -1,0 +1,2 @@
+Opcional: configuraciones de mods que quieras forzar a todos los jugadores (por ejemplo config/sodium-options.json).
+Cada vez que juegan, el launcher deja estos archivos exactamente como están aquí.
