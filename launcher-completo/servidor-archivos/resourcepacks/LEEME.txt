@@ -1,2 +1,0 @@
-Pon aquí tu resource pack (.zip).
-Para que se active solo, escribe su nombre exacto en ajustes.json -> apply -> resourcePack.
