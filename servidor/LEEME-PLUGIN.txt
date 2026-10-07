@@ -1,0 +1,22 @@
+PLUGIN DEL SERVIDOR (no va en el launcher)
+==========================================
+Copia CustomSkyboxesPlugin-1_0_2.jar a la carpeta "plugins" de tu servidor (Spigot/Paper 1.21.1) y reinicia.
+Es el que manda los comandos de cielo a los jugadores que tienen el mod CustomSkyboxes (el launcher se lo instala).
+Solo lo pueden usar los OP (permiso customskyboxes.admin).
+
+Comandos (los textos de textura son el nombre del archivo, sin .png; con TAB se autocompletan):
+  /customskyboxesplugin set @a sky cielo-rojo-apocaliptico        cielo rojo para todos
+  /customskyboxesplugin set @a sky eclipse-total-estatico         eclipse para todos
+  /customskyboxesplugin set NombreJugador sky cielo-rojo-apocaliptico   solo para un jugador
+  /customskyboxesplugin clear @a sky                              quita el cielo de esa capa
+  /customskyboxesplugin clear @a all                              vuelve todo a la normalidad
+  /customskyboxesplugin biome set @a <bioma> sky <textura>        el cielo solo en un bioma
+  /customskyboxesplugin biome clear @a <bioma> all
+  /customskyboxesplugin reload @a                                 recarga los resource packs de los jugadores
+
+Capas (tipos): sky, day_sky, night_sky, stars, sun, moon, clouds, rain, snow.
+También acepta colores en lugar de textura, por ejemplo: set @a sky #ff0000  o  set @a sky RED.
+
+Para probar sin servidor, dentro de Minecraft (con el mod) puedes usar el mismo comando pero del cliente:
+  /customskyboxes set sky cielo-rojo-apocaliptico
+  /customskyboxes clear all

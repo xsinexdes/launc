@@ -1,0 +1,33 @@
+{
+  "serverIp": "",
+  "fabricLoader": "",
+  "tagline": "",
+  "strict": [
+    "mods"
+  ],
+  "apply": {
+    "resourcePack": "Nova-Cielos.zip",
+    "shaderPack": ""
+  },
+  "modrinth": [
+    "fabric-api",
+    "sodium",
+    "iris",
+    "lithium",
+    "ferrite-core",
+    "immediatelyfast",
+    "modernfix",
+    "entityculling",
+    "moreculling",
+    "dynamic-fps",
+    "sodium-extra",
+    "reeses-sodium-options"
+  ],
+  "news": [
+    {
+      "date": "5 oct 2026",
+      "title": "Bienvenido a bordo",
+      "text": "Este launcher instala y actualiza los mods, el resource pack y los shaders automáticamente."
+    }
+  ]
+}

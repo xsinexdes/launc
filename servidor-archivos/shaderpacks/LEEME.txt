@@ -1,0 +1,3 @@
+Pon aquí tus shaders (.zip).
+Para que se activen solos, escribe el nombre exacto en ajustes.json -> apply -> shaderPack.
+Necesitas los mods Sodium e Iris en la carpeta mods.

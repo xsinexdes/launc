@@ -1,0 +1,44 @@
+{
+  "version": 1791332746641,
+  "strict": [
+    "mods"
+  ],
+  "apply": {
+    "resourcePack": "Nova-Cielos.zip",
+    "shaderPack": ""
+  },
+  "news": [
+    {
+      "date": "5 oct 2026",
+      "title": "Bienvenido a bordo",
+      "text": "Este launcher instala y actualiza los mods, el resource pack y los shaders automáticamente."
+    }
+  ],
+  "modrinth": [
+    "fabric-api",
+    "sodium",
+    "iris",
+    "lithium",
+    "ferrite-core",
+    "immediatelyfast",
+    "modernfix",
+    "entityculling",
+    "moreculling",
+    "dynamic-fps",
+    "sodium-extra",
+    "reeses-sodium-options"
+  ],
+  "worlds": [],
+  "files": [
+    {
+      "path": "mods/customskyboxes-mc1_21_1-1_0_3_1.jar",
+      "sha1": "4bc9e13129287ecb5b62704fa175ae1d7918db76",
+      "size": 162510
+    },
+    {
+      "path": "resourcepacks/Nova-Cielos.zip",
+      "sha1": "47c834a7300d7c4cd3734a5a3a9f4cddde55ff89",
+      "size": 2086886
+    }
+  ]
+}

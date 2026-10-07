@@ -1,0 +1,3 @@
+Mundos de prueba (opcional). Cada mundo es una carpeta que contiene level.dat, por ejemplo: mundos/Prueba/level.dat
+Se instalan UNA sola vez en el PC del jugador (si ya lo tiene, no se toca su progreso) y salen como botón en el launcher.
+Cómo crearlo: en Minecraft crea un mundo Plano en Creativo llamado Prueba, y copia su carpeta de %APPDATA%\NovaLauncher\minecraft\saves\Prueba aquí.
